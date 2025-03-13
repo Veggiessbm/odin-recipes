@@ -1,9 +1,21 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 .title {
     text-align: center; 
     background-color: orange; 
     color: yellow; 
     font-size: 48px;
     font-family:'Courier New', Courier, monospace;
+    width: 400px;
+    margin: 36px auto;
+    padding: 24px;
+    border: 12px solid black;
 }
 
 ul {
@@ -11,4 +23,9 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: orange;
+    margin-left: 36px;
+}
+
+li {
+    padding: 12px;
 }
